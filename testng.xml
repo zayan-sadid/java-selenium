@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+    <listeners>
+        <listener
+                class-name="com.MyBank.pageObjects.listener.TestListener"/>
+    </listeners>
+    <test name="Regression1">
+        <classes>
+            <class name="com.MyBank.testCases.FunctionalTest.LandingPagesUITest"/>
+
+        </classes>
+    </test>
+</suite>
